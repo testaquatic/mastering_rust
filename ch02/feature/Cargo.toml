@@ -1,0 +1,9 @@
+[package]
+name = "feature"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+feature1 = []
+
+[dependencies]
