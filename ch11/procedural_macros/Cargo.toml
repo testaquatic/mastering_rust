@@ -1,0 +1,8 @@
+[package]
+name = "procedural_macros"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+main_crate = { version = "0.1.0", path = "main_crate" }
+my_macro_crate = { version = "0.1.0", path = "my_macro_crate" }
