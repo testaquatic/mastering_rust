@@ -1,0 +1,6 @@
+[package]
+name = "assert_unwind_safe"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
