@@ -1,0 +1,16 @@
+[package]
+name = "excutor_io"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+futures = "0.3"
+mio = { version = "1.0", features = ["os-poll", "net"] }
+
+[[bin]]
+name = "client_bin"
+path = "./src/client_bin.rs"
+
+[[bin]]
+name = "server_bin"
+path = "./src/server_bin.rs"
