@@ -1,0 +1,7 @@
+[package]
+name = "my_macro2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+my_macro2_crate = { path = "./my_macro2_crate/" }
