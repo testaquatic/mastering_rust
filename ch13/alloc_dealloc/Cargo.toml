@@ -1,0 +1,6 @@
+[package]
+name = "alloc_dealloc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
